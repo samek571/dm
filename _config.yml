@@ -6,7 +6,7 @@ lang: cs
 
 # Must match the repository name: "/<repo-name>".
 # If the repo is called <username>.github.io, use "" instead.
-baseurl: "/course"
+baseurl: "/dm"
 url: ""
 
 markdown: kramdown

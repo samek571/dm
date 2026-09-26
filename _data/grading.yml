@@ -1,14 +1,13 @@
-# Podmínky zápočtu – z toho se kreslí bodový graf na hlavní stránce.
-pass: 100          # kolik bodů je potřeba na zápočet
+pass: 100
 
 items:
-  - name: "Malé písemky"
+  - name: "male testy"
     points: 110
-    detail: "11 × 10 bodů, vždy na začátku cvičení z látky minulého týdne (10 min)."
-  - name: "Domácí úkoly"
+    detail: "11 × 10 bodov, vzdy tak na cca 7 mins na zaciatku cvika. V pripade, ze by sa niekto nemohol dostavit na zaciatok cvicenia - bude ekvivalentne tazky (no iny - nebudu tam len ine ciselka) test aj na konci cvicenia. Pointa malych testov je si overit ze na to clovek pocas semestra uplne nekasle"
+  - name: "Domace ulohy"
     points: 40
-    detail: "10 úkolů × 2 příklady × 2 body. Odevzdání do začátku dalšího cvičení."
+    detail: "10 uloh × 2 ulohy × 2 body. Budu 2 tyzdne na ulohu (aby me si v pripade velkej nudze mohli nieco k uloham povedat)."
   - name: "Aktivita"
     points: 10
     bonus: true
-    detail: "Řešení u tabule, max. 1 bod za cvičení."
+    detail: "kratke odprezentovanie ulohy pri tabuly alebo povedanie niecoho extremne prevratneho pripadne aj mudreho. Max 1bod za cviko."

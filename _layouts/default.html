@@ -28,7 +28,8 @@
         {% if c.lecture %}<li><span class="k">Přednáška</span><a href="{{ c.lecture.url }}">{{ c.lecture.name }}</a></li>{% endif %}
       </ul>
     </div>
-    <nav class="nav">
+  </header>
+  <nav class="nav">
       <div class="wrap">
         <a href="{{ '/#novinky' | relative_url }}">Novinky</a>
         <a href="{{ '/#rozvrh' | relative_url }}">Rozvrh</a>
@@ -37,7 +38,6 @@
         <a href="{{ '/#odkazy' | relative_url }}">Odkazy</a>
       </div>
     </nav>
-  </header>
 
   <main class="wrap">
     {{ content }}

@@ -1,21 +1,19 @@
-# ── Základní údaje ─────────────────────────────────────────────
-name: "Název předmětu"
-code: "NXXX000"            # kód předmětu v SISu (nepovinné)
+name: "Diskretna matematika"
+code: "NMIN105"
 year: "2026/2027"
-kind: "Cvičení"
+kind: "Cvicenie"
 
-when: "každou středu 9:00–10:30"
-room: "místnost XY"
+when: "kazdy utorok 15:40–17:10"
+room: "miestnost N5 (IMPAKT)"
 
-teacher: "Bodon Příjmení"
-email: "bodon (at) example.cz"   # (at) místo @ proti spamu
+teacher: "Samuel Vaško"
+email: "samuel-dm at vasko.cc"
 
-# Přednáška, ke které cvičení patří (nepovinné – smažte, pokud nechcete)
 lecture:
-  name: "Jméno přednášejícího"
-  url: "https://example.cz"
+  name: "Jiří Fiala"
+  mail: "fiala at kam.mff.cuni.cz"
+  url: "https://kam.mff.cuni.cz/~fiala/DM/"
 
-# Kde se odevzdávají úkoly / vidí body (nepovinné)
 submissions:
-  name: "Moodle"
-  url: "https://example.cz"
+  name: "Sova"
+  url: "https://TODO.cz"

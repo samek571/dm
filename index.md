@@ -12,29 +12,33 @@ layout: default
 
 <section class="block rules" markdown="1">
 
-### Domácí úkoly
+### Domace ulohy
 
-Zadání i odevzdávání probíhá v [{{ c.submissions.name }}]({{ c.submissions.url }}). Úkol lze odevzdat vždy do začátku dalšího cvičení. Když ho odevzdáte dost brzy a nebude za plný počet, můžete ho opravit a odevzdat znovu.
+Zadanie uloh aj odovzdavanie bude v [postovej sove](https://owl.mff.cuni.cz/c/zs2627/26aNMIN105x07/). Na zapis do kurzu pouzite token: `1a5b1d0805d9`
 
-Úkoly můžete konzultovat s ostatními, ale řešení sepisuje každý sám. Kromě výsledku musí být vidět i postup; částečné řešení je lepší než žádné.
+Na ulohu mate 2 tyzdne. Ak ju odovzdate dost skoro a nedostanete plny pocet bodov, mozete ju opravit a odovzdat znova, limit je 3 pokusy no dufam ze median bude 1, v idealnom svete aj priemer.
 
-### Opravné písemky
+Ulohy mozete konzultovat s ostatnymi, ale spisujte to prosim kazdy osamote. Vysledok ulohy je len taka zaujimavost - dolezity je postup. Zjavne ciastocne riesenie je lepsie ako ziadne. 
 
-Máte právo na opravu dvou písemek. Napíšeme je na posledních dvou cvičeních (viz [rozvrh](#rozvrh)).
+### Opravne pisomky
 
-### Umělá inteligence
+Mate pravo na opravu dvoch pisomiek. Napiseme ich na poslednych dvoch cviceniach (vid [rozvrh](#rozvrh)).
 
-- AI můžete používat k **vysvětlení pojmů** nebo jako **nápovědu**, když se zaseknete.
-- **Ne** k vygenerování celého řešení – opravovat ho je ztráta času pro vás i pro mě.
-- Pamatujte, že AI se plete, a to často sebevědomě.
+### Umela inteligencia (AI)
+
+- AI mozete pouzivat na **vysvetlenie pojmov** alebo ako **napovedu**, ked sa zaseknete.
+- **Nie** na vygenerovanie celeho riesenia – ak si niekto budete chciet usetrit cas a cela uloha preleze cez AI, tak mi aspon poslite link daneho chatu. Body dostanete, no myslite na to ze na skuske AI nebude a je to fundamentalny kurz takze by sa vam to oplatilo pochopit cim skor aby ste nevyleteli v neskorsom roku studia.
+- AI je z definicie chybove a obcas sa mu pritrafi povedat blbost, je to super nastroj na spolupracu ale dost zly na autonomne vyvijanie.
 
 </section>
 
 <section id="konzultace" class="block" markdown="1">
 
-## Konzultace
+## Konzultacie
 
-Pokud něčemu nerozumíte, nestíháte úkol nebo máte nápad, co zlepšit, napište mi na <code>{{ c.email }}</code> **dřív, než bude pozdě** – něco vymyslíme.
+Ak niecomu nerozumiete, nestihate ulohu alebo mate napad co zlepsit, zastavte sa po cviku alebo napiste mail `samuel-dm at vasko.cc`pripadne napiste do sovy - je tam na to policko.
+
+Bol by som velmi nerad ak by sme o problemoch mlcali a ja vas nepravom a nevedome sikanoval, (az tak ma to nebavi robit + je vela inych ludi ktorych si uzijete vo svojej plnej nadhere).
 
 </section>
 

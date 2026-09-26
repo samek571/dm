@@ -1,0 +1,27 @@
+# ============================================================
+#  CO JE V TEJTO ZLOZKE SUKROMNE (nikdy sa necommitne)
+#  Vsetko ostatne tu je VEREJNE: po commite je to na webe
+#  aj v repozitari na GitHube.
+# ============================================================
+
+# riesenia a poznamky pre cviciaceho
+*reseni*
+*rieseni*
+*solution*
+poznamky*
+*nahled*
+
+# pomocne subory z LaTeXu
+*.aux
+*.log
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.out
+*.toc
+*.tex
+
+# ------------------------------------------------------------
+#  Ked chces nieco zverejnit (napr. riesenia po termine),
+#  zmaz prislusny riadok vyssie a commitni.
+# ------------------------------------------------------------

@@ -10,7 +10,7 @@
   topic: "Uvod, organizacne info, lahsie ulohy na zahriatie"
   tags: [uloha]
   files:
-    - { name: "zadanie", url: "cv1.pdf" }
+    - { name: "zadanie", url: "cv1/cv1.pdf" }
 
 - date: 2026-10-06
   topic: "Tema 2"

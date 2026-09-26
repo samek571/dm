@@ -38,7 +38,7 @@ Mate pravo na opravu dvoch pisomiek. Napiseme ich na poslednych dvoch cviceniach
 
 Ak niecomu nerozumiete, nestihate ulohu alebo mate napad co zlepsit, zastavte sa po cviku alebo napiste mail `samuel-dm at vasko.cc`, pripadne napiste do sovy - je tam na to policko.
 
-Bol by som velmi nerad ak by sme o problemoch mlcali a ja vas nepravom a nevedome sikanoval, (az tak ma to nebavi robit + je vela inych ludi ktorych si uzijete vo svojej plnej nadhere).
+Bol by som velmi nerad ak by sme o problemoch mlcali a ja vas nepravom a nevedome sikanoval, (az tak ma nebavi robit ludom zle + je vela inych ludi ktorych si uzijete vo svojej plnej nadhere).
 
 </section>
 

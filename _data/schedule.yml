@@ -7,16 +7,14 @@
 # Nejbližší budoucí cvičení se na webu automaticky zvýrazní.
 
 - date: 2026-09-29
-  topic: "Uvod, organizacne info"
+  topic: "Uvod, organizacne info, lahsie ulohy na zahriatie"
   tags: [uloha]
   files:
     - { name: "zadanie", url: "cv1.pdf" }
 
 - date: 2026-10-06
-  topic: "Téma 2"
+  topic: "Tema 2"
   tags: [test, uloha]
-  files:
-    - { name: "zadanie", url: "cv2.pdf" }
 
 - date: 2026-10-13
   tags: [test, uloha]

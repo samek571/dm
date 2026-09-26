@@ -105,7 +105,7 @@ h3 { margin: 28px 0 6px; font-size: 17px; }
 .session.next { background: var(--accent-soft); }
 .session.next::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 3px; background: var(--accent); }
 .session.next .when::after {
-  content: "příště"; display: block; margin-left: 22px; line-height: 1.2; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: .05em;
+  content: "nabuduce"; display: block; margin-left: 22px; line-height: 1.2; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: .05em;
   color: var(--accent);
 }
 @media (max-width: 560px) {

@@ -3,10 +3,10 @@
 {% for it in g.items %}{% assign total = total | plus: it.points %}{% unless it.bonus %}{% assign base = base | plus: it.points %}{% endunless %}{% endfor %}
 {% assign passpct = g.pass | times: 100.0 | divided_by: total %}
 <section id="zapocet" class="block">
-<div class="head"><h2>Podmínky zápočtu</h2></div>
+<div class="head"><h2>Podmienky zapoctu</h2></div>
 <div class="grading">
-<p class="summary">Na zápočet potřebujete <strong>{{ g.pass }} bodů</strong> z {{ base }} možných{% if total > base %} (+ až {{ total | minus: base }} bonusových){% endif %}.</p>
-<div class="bar" role="img" aria-label="Rozložení bodů, hranice zápočtu {{ g.pass }} bodů">
+<p class="summary">Na zapocet potrebujete <strong>{{ g.pass }} bodov</strong> z {{ base }} moznych{% if total > base %} (+ az {{ total | minus: base }} bonusovych){% endif %}.</p>
+<div class="bar" role="img" aria-label="Rozlozenie bodov, hranica zapoctu {{ g.pass }} bodov">
 {% for it in g.items %}<span class="seg s{{ forloop.index }}{% if it.bonus %} bonus{% endif %}" style="width: {{ it.points | times: 100.0 | divided_by: total }}%"></span>{% endfor %}
 <span class="line" style="left: {{ passpct }}%"><span>{{ g.pass }}</span></span>
 </div>

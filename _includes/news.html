@@ -1,6 +1,6 @@
 <section id="novinky" class="block">
-<div class="head"><h2>Novinky</h2><a class="rss" href="{{ '/feed.xml' | relative_url }}">RSS</a></div>
-{% if site.posts.size == 0 %}<p class="muted">Zatím nic.</p>{% endif %}
+<div class="head"><h2>Novinky</h2></div>
+{% if site.posts.size == 0 %}<p class="muted">Zatial nic.</p>{% endif %}
 <ul class="news">
 {% for post in site.posts limit: 5 %}
 <li>

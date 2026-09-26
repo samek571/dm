@@ -1,31 +1,32 @@
-# Web cvičení (GitHub Pages)
+# Web cvicenia (GitHub Pages)
 
-## Zprovoznění (~5 min, bez gitu)
-1. Na GitHubu vytvořte **veřejný** repozitář `course` (jiný název → změňte `baseurl` v `_config.yml`).
-2. **Add file → Upload files** → přetáhněte všechno z této složky → Commit.
-3. **Settings → Pages** → *Deploy from a branch* → `main` / `(root)` → Save.
-4. Za ~1 min běží na `https://<uživatel>.github.io/course/`.
+Stranka bezi na `https://samek571.github.io/dm/`. Po kazdom commite sa za cca 1–2 minuty prebuduje sama (stav vidno v zalozke **Actions**).
 
 ## Co kde upravit
-| Soubor | Co obsahuje |
+| Subor | Co obsahuje |
 |---|---|
-| `_data/course.yml` | název, čas, místnost, email, odkazy na přednášku a Moodle |
-| `_data/schedule.yml` | rozvrh – témata, štítky, soubory, odpadlá cvičení |
-| `_data/grading.yml` | body a hranice zápočtu (graf se překreslí sám) |
-| `_data/links.yml` | užitečné odkazy |
-| `index.md` | volný text: pravidla úkolů, AI, konzultace |
-| `materials/` | PDF – v YAML stačí napsat jen název souboru |
+| `_data/course.yml` | nazov, cas, miestnost, email, odkazy na prednasku a sovu |
+| `_data/schedule.yml` | rozvrh – temy, stitky, subory, zrusene cvicenia |
+| `_data/grading.yml` | body a hranica zapoctu (graf sa prekresli sam) |
+| `_data/links.yml` | uzitocne odkazy |
+| `index.md` | volny text: pravidla uloh, AI, konzultacie |
+| `_posts/` | novinky (jeden subor = jedna novinka) |
+| `materials/` | PDF – v YAML staci napisat len nazov suboru |
 
-## Týdenní rutina
-1. Nahrajte PDF do `materials/` (např. `cv3.pdf`).
-2. V `_data/schedule.yml` k danému datu přidejte `files: [{ name: "zadání", url: "cv3.pdf" }]`.
-3. Novinka: v `_posts/` **Add file → Create new file**, název `2026-10-12-neco.md`:
+## Tyzdenna rutina
+1. Nahrajte PDF do `materials/` (napr. `cv3.pdf`, bez medzier a diakritiky).
+2. V `_data/schedule.yml` k danemu datumu pridajte:
+   ```yaml
+     files:
+       - { name: "zadanie", url: "cv3.pdf" }
+   ```
+   Odsadzujte iba medzerami, nikdy tabulatorom.
+3. Novinka: v `_posts/` **Add file → Create new file**, nazov `RRRR-MM-DD-nieco.md` s **dnesnym** datumom (novinky s buducim datumom sa nezobrazia):
+   ```markdown
+   ---
+   title: "Pisomka sa presuva"
+   ---
+   Text novinky. Matematika: $$x^2 + y^2$$.
+   ```
 
-```markdown
----
-title: "Písemka se posouvá"
----
-Text novinky. Matematika: $$x^2 + y^2$$.
-```
-
-Nejbližší cvičení se na webu zvýrazní samo.
+Najblizsie cvicenie sa na webe zvyrazni samo.

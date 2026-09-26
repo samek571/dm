@@ -1,4 +1,4 @@
-{% assign dny = "Ne,Po,Út,St,Čt,Pá,So" | split: "," %}
+{% assign dny = "Ne,Po,Ut,St,Stv,Pi,So" | split: "," %}
 <section id="rozvrh" class="block">
 <div class="head"><h2>Rozvrh</h2></div>
 <ol class="schedule">
@@ -8,9 +8,9 @@
 <div class="when"><span class="dow">{{ dny[wd] }}</span> {{ s.date | date: "%-d. %-m." }}</div>
 <div class="what">
 {% if s.cancelled %}
-<span class="topic">Odpadá – {{ s.cancelled }}</span>
+<span class="topic">Odpada – {{ s.cancelled }}</span>
 {% else %}
-<span class="topic">{% if s.topic %}{{ s.topic }}{% else %}<span class="muted">téma upřesním</span>{% endif %}</span>
+<span class="topic">{% if s.topic %}{{ s.topic }}{% else %}<span class="muted">temu upresnim</span>{% endif %}</span>
 {% if s.tags %}<span class="tags">{% for t in s.tags %}<span class="tag">{{ t }}</span>{% endfor %}</span>{% endif %}
 {% endif %}
 </div>

@@ -1,8 +1,8 @@
 # Most course info lives in _data/course.yml – edit that first.
 
-title: "Název předmětu – cvičení 2026/2027"
-description: "Stránka cvičení: rozvrh, podmínky zápočtu, novinky a materiály."
-lang: cs
+title: "Diskretna matematika – cvicenie 2026/2027"
+description: "Stranka cvicenia: rozvrh, podmienky zapoctu, novinky a materialy."
+lang: sk
 
 # Must match the repository name: "/<repo-name>".
 # If the repo is called <username>.github.io, use "" instead.
@@ -13,9 +13,6 @@ markdown: kramdown
 kramdown:
   input: GFM
   math_engine: mathjax   # outputs \( \) / \[ \], rendered in the browser by KaTeX
-
-plugins:
-  - jekyll-feed          # RSS feed of the news at /feed.xml
 
 permalink: /novinky/:year/:month/:day/:title/
 exclude:

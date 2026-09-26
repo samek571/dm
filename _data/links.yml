@@ -1,0 +1,8 @@
+# Užitečné odkazy. url: celý odkaz, nebo název souboru ve složce materials/
+- name: "Sbírka úloh"
+  url: "https://example.cz"
+  note: "k přípravě na zkoušku"
+- name: "Videozáznamy přednášek"
+  url: "https://example.cz"
+- name: "Tahák"
+  url: "tahak.pdf"

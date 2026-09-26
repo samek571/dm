@@ -1,0 +1,53 @@
+# Rozvrh cvičení. Každá položka = jedno cvičení.
+#   date:      datum (RRRR-MM-DD)
+#   topic:     téma (nepovinné)
+#   tags:      štítky, např. [testík, úkol]
+#   files:     soubory – url buď název souboru ve složce materials/, nebo celý odkaz
+#   cancelled: důvod, pokud cvičení odpadá
+# Nejbližší budoucí cvičení se na webu automaticky zvýrazní.
+
+- date: 2026-09-30
+  topic: "Úvod, organizace"
+  tags: [úkol]
+  files:
+    - { name: "zadání", url: "cv1.pdf" }
+
+- date: 2026-10-07
+  topic: "Téma 2"
+  tags: [testík, úkol]
+  files:
+    - { name: "zadání", url: "cv2.pdf" }
+
+- date: 2026-10-14
+  topic: "Téma 3"
+  tags: [testík, úkol]
+
+- date: 2026-10-21
+  tags: [testík, úkol]
+
+- date: 2026-10-28
+  cancelled: "Den vzniku samostatného československého státu"
+
+- date: 2026-11-04
+  tags: [testík, úkol]
+
+- date: 2026-11-11
+  tags: [testík, úkol]
+
+- date: 2026-11-18
+  tags: [testík, úkol]
+
+- date: 2026-11-25
+  tags: [testík, úkol]
+
+- date: 2026-12-02
+  tags: [testík, úkol]
+
+- date: 2026-12-09
+  tags: [testík, úkol]
+
+- date: 2026-12-16
+  tags: [testík, opravná písemka]
+
+- date: 2027-01-06
+  tags: [testík, opravná písemka]

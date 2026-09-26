@@ -1,0 +1,14 @@
+# Podmínky zápočtu – z toho se kreslí bodový graf na hlavní stránce.
+pass: 100          # kolik bodů je potřeba na zápočet
+
+items:
+  - name: "Malé písemky"
+    points: 110
+    detail: "11 × 10 bodů, vždy na začátku cvičení z látky minulého týdne (10 min)."
+  - name: "Domácí úkoly"
+    points: 40
+    detail: "10 úkolů × 2 příklady × 2 body. Odevzdání do začátku dalšího cvičení."
+  - name: "Aktivita"
+    points: 10
+    bonus: true
+    detail: "Řešení u tabule, max. 1 bod za cvičení."

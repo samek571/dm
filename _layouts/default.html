@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'cs' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.data.course.name }} {{ site.data.course.year }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+  <link rel="alternate" type="application/rss+xml" title="Novinky" href="{{ '/feed.xml' | relative_url }}">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>∑</text></svg>">
+
+  <!-- KaTeX: $…$ a $$…$$ v textu se vykreslí jako matematika -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"
+    onload="renderMathInElement(document.body,{delimiters:[{left:'\\[',right:'\\]',display:true},{left:'$$',right:'$$',display:true},{left:'\\(',right:'\\)',display:false},{left:'$',right:'$',display:false}],throwOnError:false})"></script>
+</head>
+<body>
+  {% assign c = site.data.course %}
+  <header class="top">
+    <div class="wrap">
+      <p class="eyebrow">{{ c.kind }}{% if c.code %} · {{ c.code }}{% endif %} · {{ c.year }}</p>
+      <h1><a href="{{ '/' | relative_url }}">{{ c.name }}</a></h1>
+      <ul class="facts">
+        <li><span class="k">Kdy</span>{{ c.when }}</li>
+        <li><span class="k">Kde</span>{{ c.room }}</li>
+        <li><span class="k">Vede</span>{{ c.teacher }}</li>
+        {% if c.lecture %}<li><span class="k">Přednáška</span><a href="{{ c.lecture.url }}">{{ c.lecture.name }}</a></li>{% endif %}
+      </ul>
+    </div>
+    <nav class="nav">
+      <div class="wrap">
+        <a href="{{ '/#novinky' | relative_url }}">Novinky</a>
+        <a href="{{ '/#rozvrh' | relative_url }}">Rozvrh</a>
+        <a href="{{ '/#zapocet' | relative_url }}">Zápočet</a>
+        <a href="{{ '/#konzultace' | relative_url }}">Konzultace</a>
+        <a href="{{ '/#odkazy' | relative_url }}">Odkazy</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    {{ content }}
+  </main>
+
+  <footer class="wrap foot">
+    <span>{{ c.teacher }} · <code>{{ c.email }}</code></span>
+    <a href="{{ '/feed.xml' | relative_url }}">RSS novinek</a>
+  </footer>
+
+  <script>
+    // Zvýrazní nejbližší cvičení a ztlumí proběhlá.
+    (function () {
+      var t = new Date(); t.setHours(0, 0, 0, 0);
+      var next = null;
+      document.querySelectorAll('.session[data-date]').forEach(function (el) {
+        var p = el.dataset.date.split('-');
+        var d = new Date(+p[0], p[1] - 1, +p[2]);
+        if (d < t) el.classList.add('past');
+        else if (!next && !el.classList.contains('cancelled')) next = el;
+      });
+      if (next) next.classList.add('next');
+    })();
+  </script>
+</body>
+</html>

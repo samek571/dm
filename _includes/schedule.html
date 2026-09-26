@@ -1,0 +1,23 @@
+{% assign dny = "Ne,Po,Út,St,Čt,Pá,So" | split: "," %}
+<section id="rozvrh" class="block">
+<div class="head"><h2>Rozvrh</h2></div>
+<ol class="schedule">
+{% for s in site.data.schedule %}
+{% assign wd = s.date | date: "%w" | plus: 0 %}
+<li class="session{% if s.cancelled %} cancelled{% endif %}" data-date="{{ s.date | date: '%Y-%m-%d' }}">
+<div class="when"><span class="dow">{{ dny[wd] }}</span> {{ s.date | date: "%-d. %-m." }}</div>
+<div class="what">
+{% if s.cancelled %}
+<span class="topic">Odpadá – {{ s.cancelled }}</span>
+{% else %}
+<span class="topic">{% if s.topic %}{{ s.topic }}{% else %}<span class="muted">téma upřesním</span>{% endif %}</span>
+{% if s.tags %}<span class="tags">{% for t in s.tags %}<span class="tag">{{ t }}</span>{% endfor %}</span>{% endif %}
+{% endif %}
+</div>
+<div class="files">
+{% for f in s.files %}{% if f.url contains '://' %}{% assign href = f.url %}{% else %}{% assign href = f.url | prepend: '/materials/' | relative_url %}{% endif %}<a href="{{ href }}">{{ f.name }}</a>{% endfor %}
+</div>
+</li>
+{% endfor %}
+</ol>
+</section>

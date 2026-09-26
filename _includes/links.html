@@ -1,0 +1,8 @@
+<section id="odkazy" class="block">
+<div class="head"><h2>Užitečné odkazy</h2></div>
+<ul class="links">
+{% for l in site.data.links %}{% if l.url contains '://' %}{% assign href = l.url %}{% else %}{% assign href = l.url | prepend: '/materials/' | relative_url %}{% endif %}
+<li><a href="{{ href }}">{{ l.name }}</a>{% if l.note %} <span class="muted">– {{ l.note }}</span>{% endif %}</li>
+{% endfor %}
+</ul>
+</section>

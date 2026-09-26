@@ -1,0 +1,21 @@
+# ── Základní údaje ─────────────────────────────────────────────
+name: "Název předmětu"
+code: "NXXX000"            # kód předmětu v SISu (nepovinné)
+year: "2026/2027"
+kind: "Cvičení"
+
+when: "každou středu 9:00–10:30"
+room: "místnost XY"
+
+teacher: "Bodon Příjmení"
+email: "bodon (at) example.cz"   # (at) místo @ proti spamu
+
+# Přednáška, ke které cvičení patří (nepovinné – smažte, pokud nechcete)
+lecture:
+  name: "Jméno přednášejícího"
+  url: "https://example.cz"
+
+# Kde se odevzdávají úkoly / vidí body (nepovinné)
+submissions:
+  name: "Moodle"
+  url: "https://example.cz"

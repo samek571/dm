@@ -14,7 +14,7 @@ layout: default
 
 ### Domace ulohy
 
-Zadanie uloh aj odovzdavanie bude v [postovej sove](https://owl.mff.cuni.cz/c/zs2627/26aNMIN105x07/). Na zapis do kurzu pouzite token: `1a5b1d0805d9`
+Zadanie uloh aj odovzdavanie sa bude konat v [postovej sove](https://owl.mff.cuni.cz/c/zs2627/26aNMIN105x07/). Na zapis do kurzu pouzite token: `1a5b1d0805d9`
 
 Na ulohu mate 2 tyzdne. Ak ju odovzdate dost skoro a nedostanete plny pocet bodov, mozete ju opravit a odovzdat znova, limit je 3 pokusy no dufam ze median bude 1, v idealnom svete aj priemer.
 
@@ -27,8 +27,7 @@ Mate pravo na opravu dvoch pisomiek. Napiseme ich na poslednych dvoch cviceniach
 ### Umela inteligencia (AI)
 
 - AI mozete pouzivat na **vysvetlenie pojmov** alebo ako **napovedu**, ked sa zaseknete.
-- **Nie** na vygenerovanie celeho riesenia – ak si niekto budete chciet usetrit cas a cela uloha preleze cez AI, tak mi aspon poslite link daneho chatu. Body dostanete, no myslite na to ze na skuske AI nebude a je to fundamentalny kurz takze by sa vam to oplatilo pochopit cim skor aby ste nevyleteli v neskorsom roku studia.
-- AI je z definicie chybove a obcas sa mu pritrafi povedat blbost, je to super nastroj na spolupracu ale dost zly na autonomne vyvijanie.
+- Ak sa vam podari vygenerovat cele riesenie (ci uz dobrovolne alebo nedobrovolne), tak mi aspon poslite link daneho chatu. Body su za korektne riesenie, teda aj za take riesenie ktore cele vyhalucinovalo AI, no myslite na to, ze na skuske AI nebude a NMIN105 je fundamentalny kurz.
 
 </section>
 
@@ -36,9 +35,9 @@ Mate pravo na opravu dvoch pisomiek. Napiseme ich na poslednych dvoch cviceniach
 
 ## Konzultacie
 
-Ak niecomu nerozumiete, nestihate ulohu alebo mate napad co zlepsit, zastavte sa po cviku alebo napiste mail `samuel-dm at vasko.cc`, pripadne napiste do sovy - je tam na to policko.
+Ak niecomu nerozumiete, nestihate ulohu alebo mate napad co zlepsit, zastavte sa po cviku alebo napiste mail `samuel-dm at vasko.cc`, pripadne napiste do sovy - je tam na to modul.
 
-Bol by som velmi nerad ak by sme o problemoch mlcali a ja vas nepravom a nevedome sikanoval, (az tak ma nebavi robit ludom zle + je vela inych ludi ktorych si uzijete vo svojej plnej nadhere).
+Bol by som velmi rad ak by sme o problemoch nemlcali a ja vas nepravom a nevedome nesikanoval, (az tak ma nebavi robit ludom zle + je vela inych ludi ktorych si uzijete vo svojej plnej nadhere).
 
 </section>
 

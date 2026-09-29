@@ -7,7 +7,7 @@
 # Nejbližší budoucí cvičení se na webu automaticky zvýrazní.
 
 - date: 2026-09-29
-  topic: "Uvod, organizacne info, lahsie ulohy na zahriatie"
+  topic: "Uvod, organizacne info, lahsie ulohy na zahriatie (presli sme iba po ulohu 8)"
   tags: [uloha]
   files:
     - { name: "zadanie", url: "cv1/cv1.pdf" }
@@ -32,7 +32,7 @@
   tags: [test, uloha]
 
 - date: 2026-11-17
-  cancelled: "den boja za demonkraciu!"
+  cancelled: "den boja za demokraciu!"
 
 - date: 2026-11-24
   tags: [test, uloha]

@@ -6,8 +6,8 @@ items:
     detail: "10 × 11 bodov, vzdy tak na cca 7 mins na zaciatku cvika (na prvom cviku nebude test). Pointa malych testov je si overit ze na to clovek pocas semestra uplne nekasle a dokaze rozmyslat bez AI."
   - name: "ulohy na precvicenie"
     points: 40
-    detail: "10 uloh × 2 ulohy × 2 body. Budu 2 tyzdne na ulohu (aby me si v pripade velkej nudze mohli nieco k uloham povedat)."
+    detail: "10 uloh × 2 ulohy × 2 body. Budu 2 tyzdne na ulohu (aby sme si v pripade velkej nudze mohli nieco k uloham povedat)."
   - name: "Aktivita"
     points: 10
     bonus: true
-    detail: "kratke odprezentovanie ulohy pri tabuly alebo povedanie niecoho extremne prevratneho pripadne aj mudreho alebo vypracovanie bonusovej ulohy pripadne vyplnenie feedbacku."
+    detail: "kratke odprezentovanie ulohy pri tabuli alebo povedanie niecoho extremne prevratneho pripadne aj mudreho alebo vypracovanie bonusovej ulohy pripadne vyplnenie feedbacku."

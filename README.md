@@ -15,7 +15,7 @@ Stranka bezi na `https://samek571.github.io/dm/`. Po kazdom commite sa za cca 1â
 
 ## Tyzdenna rutina
 1. Nahrajte PDF do `materials/` (napr. `cv3.pdf`, bez medzier a diakritiky).
-2. V `_data/schedule.yml` k danemu datumu pridajte:
+2. Odkaz sa prida **sam**: PDF v `materials/cvN/` (N = poradie cvicenia, odpadnute sa nepocitaju) sa zobrazi pri N-tom cviceni, `cvN.pdf` ako "zadanie", ostatne pod nazvom suboru. Rucne (napr. externy odkaz) mozete v `_data/schedule.yml` k danemu datumu pridat:
    ```yaml
      files:
        - { name: "zadanie", url: "cv3.pdf" }

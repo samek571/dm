@@ -13,6 +13,7 @@
 <span class="topic">{% if s.topic %}{{ s.topic }}{% else %}<span class="muted">temu upresnim</span>{% endif %}</span>
 {% if s.tags %}<span class="tags">{% for t in s.tags %}<span class="tag">{{ t }}</span>{% endfor %}</span>{% endif %}
 {% endif %}
+{% if s.info %}<div class="info">{{ s.info | markdownify | remove: '<p>' | remove: '</p>' | strip }}</div>{% endif %}
 </div>
 <div class="files">
 {% for f in s.files %}{% if f.url contains '://' %}{% assign href = f.url %}{% else %}{% assign href = f.url | prepend: '/materials/' | relative_url %}{% endif %}<a href="{{ href }}">{{ f.name }}</a>{% endfor %}

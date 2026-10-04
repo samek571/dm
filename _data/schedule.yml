@@ -4,6 +4,7 @@
 #   tags:      štítky, např. [test, uloha]
 #   files:     soubory – url buď název souboru ve složce materials/, nebo celý odkaz
 #   cancelled: důvod, pokud cvičení odpadá
+#   info:      poznamka zobrazena pod temou (zvyraznena), funguje aj [odkaz](https://...) a **tucne**
 # Nejbližší budoucí cvičení se na webu automaticky zvýrazní.
 
 - date: 2026-09-29
@@ -21,9 +22,10 @@
 
 - date: 2026-10-20
   tags: [test, uloha]
+  info: "zastupujuci cviciaci/cviciaca"
 
 - date: 2026-10-27
-  cancelled: "imatrikulacie"
+  info: "imatrikulace, test nebude, vyuka prebehne normalne"
 
 - date: 2026-11-03
   tags: [test, uloha]

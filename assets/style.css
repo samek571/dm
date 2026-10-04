@@ -100,6 +100,7 @@ h3 { margin: 28px 0 6px; font-size: 17px; }
 .tags { display: inline-flex; gap: 4px; flex-wrap: wrap; }
 .tag { font-size: 12px; padding: 1px 8px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); }
 .files { display: flex; gap: 10px; font-size: 14px; }
+.session .info { flex-basis: 100%; font-size: 14px; padding: 6px 10px; border-left: 3px solid var(--s3); background: color-mix(in srgb, var(--s3) 12%, transparent); border-radius: 0 6px 6px 0; }
 .session.past { opacity: .5; }
 .session.cancelled .topic { color: var(--muted); text-decoration: line-through; }
 .session.next { background: var(--accent-soft); }

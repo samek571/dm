@@ -1,4 +1,6 @@
 {% assign dny = "Ne,Po,Ut,St,Stv,Pi,So" | split: "," %}
+{% comment %} Cislo cvicenia (cvN) = poradie medzi neodpadnutymi cviceniami; PDF z materials/cvN/ sa pridaju automaticky. {% endcomment %}
+{% assign cv = 0 %}
 <section id="rozvrh" class="block">
 <div class="head"><h2>Rozvrh</h2></div>
 <ol class="schedule">
@@ -16,7 +18,11 @@
 {% if s.info %}<div class="info">{{ s.info | markdownify | remove: '<p>' | remove: '</p>' | strip }}</div>{% endif %}
 </div>
 <div class="files">
-{% for f in s.files %}{% if f.url contains '://' %}{% assign href = f.url %}{% else %}{% assign href = f.url | prepend: '/materials/' | relative_url %}{% endif %}<a href="{{ href }}">{{ f.name }}</a>{% endfor %}
+{% assign explicit = "" %}
+{% for f in s.files %}{% if f.url contains '://' %}{% assign href = f.url %}{% else %}{% assign href = f.url | prepend: '/materials/' | relative_url %}{% assign explicit = explicit | append: "|" | append: f.url %}{% endif %}<a href="{{ href }}">{{ f.name }}</a>{% endfor %}
+{% unless s.cancelled %}{% assign cv = cv | plus: 1 %}{% assign dir = "/materials/cv" | append: cv | append: "/" %}{% assign main = "cv" | append: cv %}
+{% for sf in site.static_files %}{% if sf.extname == ".pdf" and sf.path contains dir %}{% assign rel = sf.path | remove_first: "/materials/" %}{% assign inner = sf.path | remove_first: dir %}{% assign marker = "|" | append: rel %}{% unless inner contains "/" or explicit contains marker %}<a href="{{ sf.path | relative_url }}">{% if sf.basename == main %}zadanie{% else %}{{ sf.basename }}{% endif %}</a>{% endunless %}{% endif %}{% endfor %}
+{% endunless %}
 </div>
 </li>
 {% endfor %}

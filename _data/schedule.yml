@@ -3,6 +3,7 @@
 #   topic:     téma (nepovinné)
 #   tags:      štítky, např. [test, uloha]
 #   files:     soubory – url buď název souboru ve složce materials/, nebo celý odkaz
+#              (PDF ze složky materials/cvN/ se přidají samy: N = pořadí cvičení bez odpadlých, cvN.pdf = "zadanie")
 #   cancelled: důvod, pokud cvičení odpadá
 #   info:      poznamka zobrazena pod temou (zvyraznena), funguje aj [odkaz](https://...) a **tucne**
 # Nejbližší budoucí cvičení se na webu automaticky zvýrazní.

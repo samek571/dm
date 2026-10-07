@@ -11,14 +11,13 @@
 - date: 2026-09-29
   topic: "Uvod, organizacne info, lahsie ulohy na zahriatie (presli sme iba po ulohu 8)"
   tags: [uloha]
-  files:
-    - { name: "zadanie", url: "cv1/cv1.pdf" }
 
 - date: 2026-10-06
-  topic: "Tema 2"
+  topic: "Modularni aritmetika, zobrazeni"
   tags: [test, uloha]
 
 - date: 2026-10-13
+  topic: "zobrazeni, kombinatoricke pocitani"
   tags: [test, uloha]
 
 - date: 2026-10-20

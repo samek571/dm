@@ -89,6 +89,9 @@ h3 { margin: 28px 0 6px; font-size: 17px; }
 .news .title { font-weight: 600; text-decoration: none; }
 .news .title:hover { text-decoration: underline; }
 .news .excerpt { color: var(--muted); font-size: 15px; }
+.news.collapsed .older { display: none; }
+.news-more { margin-top: 8px; padding: 6px 14px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--accent); font: inherit; font-size: 14px; cursor: pointer; }
+.news-more:hover { background: var(--accent-soft); }
 
 /* ── Schedule ─────────────────────────── */
 .schedule { list-style: none; margin: 0; padding: 0; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); overflow: hidden; }

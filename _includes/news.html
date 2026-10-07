@@ -1,9 +1,9 @@
 <section id="novinky" class="block">
 <div class="head"><h2>Novinky</h2></div>
 {% if site.posts.size == 0 %}<p class="muted">Zatial nic.</p>{% endif %}
-<ul class="news">
-{% for post in site.posts limit: 5 %}
-<li>
+<ul class="news collapsed" id="news-list">
+{% for post in site.posts %}
+<li{% if forloop.index > 2 %} class="older"{% endif %}>
 <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d. %-m." }}</time>
 <div>
 <a class="title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
@@ -12,4 +12,18 @@
 </li>
 {% endfor %}
 </ul>
+{% if site.posts.size > 2 %}
+<button type="button" class="news-more" id="news-more" aria-expanded="false" aria-controls="news-list">Zobrazit vsetky novinky ({{ site.posts.size }})</button>
+<script>
+(function () {
+  var list = document.getElementById('news-list'), btn = document.getElementById('news-more');
+  var more = btn.textContent;
+  btn.addEventListener('click', function () {
+    var open = list.classList.toggle('collapsed') === false;
+    btn.setAttribute('aria-expanded', open);
+    btn.textContent = open ? 'Skryt starsie novinky' : more;
+  });
+})();
+</script>
+{% endif %}
 </section>

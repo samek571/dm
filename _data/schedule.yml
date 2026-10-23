@@ -9,7 +9,7 @@
 # Nejbližší budoucí cvičení se na webu automaticky zvýrazní.
 
 - date: 2026-09-29
-  topic: "Uvod, organizacne info, lahsie ulohy na zahriatie (presli sme iba po ulohu 8)"
+  topic: "Uvod, organizacne info, ulohy na zahriatie"
   tags: [uloha]
 
 - date: 2026-10-06
@@ -21,10 +21,13 @@
   tags: [test, uloha]
 
 - date: 2026-10-20
+  topic: "PIE, pravdepodobnost"
   tags: [test, uloha]
-  info: "zastupujuci cviciaci/cviciaca"
+  info: "zastupujuci cviciaci"
 
 - date: 2026-10-27
+  tags: [uloha]
+  topic: "pravdepodobnost"
   info: "imatrikulace, test nebude, vyuka prebehne normalne"
 
 - date: 2026-11-03
@@ -34,6 +37,7 @@
   tags: [test, uloha]
 
 - date: 2026-11-17
+  tags: []
   cancelled: "den boja za demokraciu!"
 
 - date: 2026-11-24
